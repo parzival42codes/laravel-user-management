@@ -16,12 +16,12 @@ class ComposerStaticInitcc4d53c13e871e95ea4f0d9ca305ae0d
     public static $prefixDirsPsr4 = array (
         'Stefan\\LaravelLocalisation\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src',
+            0 => __DIR__.'/../..'.'/src',
         ),
     );
 
     public static $classMap = array (
-        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'Composer\\InstalledVersions' => __DIR__.'/vendor'. '/composer/InstalledVersions.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
