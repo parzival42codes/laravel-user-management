@@ -4,10 +4,10 @@
   "license": "MIT",
   "require": {
     "php": "^7.4|^8.0",
-    "../../vendor/guzzlehttp/guzzle": "^5.0|^6.0|^7.0",
-    "../../vendor/spatie/laravel-package-tools": "^1.10",
-    "../../vendor/spatie/laravel-permission": "^5.7",
-    "../../vendor/glhd/aire": "^2.6"
+    "guzzlehttp/guzzle": "^5.0|^6.0|^7.0",
+    "spatie/laravel-package-tools": "^1.10",
+    "spatie/laravel-permission": "^5.7",
+    "glhd/aire": "^2.6"
   },
   "require-dev": {
     "../../vendor/phpunit/phpunit": "^9.3"

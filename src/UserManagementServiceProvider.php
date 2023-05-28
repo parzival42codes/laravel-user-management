@@ -15,7 +15,7 @@ class UserManagementServiceProvider extends PackageServiceProvider
     {
         $package->name(self::PACKAGE_NAME)
             ->hasViews()
-                ->hasRoute('route');
+            ->hasRoute('route');
     }
 
     public function registeringPackage(): void

@@ -4,6 +4,7 @@ namespace parzival42codes\laravelResourcesOptimisation;
 
 use Illuminate\Support\Facades\Route;
 use parzival42codes\laravelResourcesOptimisation\Http\Controllers\LoginController;
+use parzival42codes\laravelResourcesOptimisation\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,10 +18,9 @@ use parzival42codes\laravelResourcesOptimisation\Http\Controllers\LoginControlle
 */
 
 Route::get(
-    '/resources/{fileName}',
+    '/user/admin',
     [
-        LoginController::class,
+        UserController::class,
         'show',
     ]
-)
-    ->where('fileName', '[a-zA-Z0-9\/\.]+')->name('laravelresourcesoptimisation');
+);
