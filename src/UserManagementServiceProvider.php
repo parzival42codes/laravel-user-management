@@ -1,6 +1,6 @@
 <?php
 
-namespace parzival42codes\laravelResourcesOptimisation;
+namespace parzival42codes\LaravelUserManagement;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;

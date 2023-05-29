@@ -1,6 +1,6 @@
 <?php
 
-namespace parzival42codes\laravelResourcesOptimisation\Http\Controllers;
+namespace parzival42codes\LaravelUserManagement\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Response;

@@ -1,12 +1,12 @@
 <?php
 
-namespace parzival42codes\laravelResourcesOptimisation\Http\Controllers;
+namespace parzival42codes\LaravelUserManagement\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\File;
 
-class LoginController extends Controller
+class RegisterController extends Controller
 {
     protected Response $response;
 
