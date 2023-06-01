@@ -20,6 +20,5 @@ class UserManagementServiceProvider extends PackageServiceProvider
 
     public function registeringPackage(): void
     {
-
     }
 }

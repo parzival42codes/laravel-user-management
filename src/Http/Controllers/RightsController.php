@@ -4,7 +4,6 @@ namespace parzival42codes\LaravelUserManagement\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Response;
-use Illuminate\Support\Facades\File;
 
 class RightsController extends Controller
 {
@@ -17,6 +16,5 @@ class RightsController extends Controller
 
     public function show(string $fileName): Response
     {
-
     }
 }
