@@ -1,6 +1,6 @@
 <?php
 
-namespace parzival42codes\LaravelUserManagement\Http\Controllers;
+namespace parzival42codes\LaravelUserManagement\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Contracts\Support\Renderable;
