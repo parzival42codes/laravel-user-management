@@ -2,7 +2,6 @@
 
 namespace Pest;
 
-/**
-
- */
-final class Expectation {}
+final class Expectation
+{
+}
