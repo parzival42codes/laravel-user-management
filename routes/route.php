@@ -1,9 +1,7 @@
 <?php
 
-namespace parzival42codes\laravelResourcesOptimisation;
-
 use Illuminate\Support\Facades\Route;
-use parzival42codes\laravelResourcesOptimisation\Http\Controllers\UserController;
+use parzival42codes\LaravelUserManagement\Http\Controllers\Admin\UserController;
 
 /*
 |--------------------------------------------------------------------------

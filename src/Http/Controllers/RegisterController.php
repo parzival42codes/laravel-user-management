@@ -13,8 +13,4 @@ class RegisterController extends Controller
     {
         $this->response = $response;
     }
-
-    public function show(string $fileName): Response
-    {
-    }
 }
