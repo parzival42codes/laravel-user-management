@@ -14,10 +14,7 @@ use parzival42codes\LaravelUserManagement\Http\Controllers\Admin\UserController;
 |
 */
 
-Route::get(
-    '/user/admin',
-    [
-        UserController::class,
-        'show',
-    ]
-);
+Route::get('user/admin', [
+    UserController::class,
+    'show',
+]);

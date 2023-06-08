@@ -3,7 +3,7 @@
 namespace parzival42codes\LaravelUserManagement\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-use Response;
+use Illuminate\Support\Facades\Response;
 
 class RightsController extends Controller
 {
